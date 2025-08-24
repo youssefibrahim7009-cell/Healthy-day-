@@ -1,0 +1,118 @@
+#log{
+    background: rgb(255, 0, 0);
+    width: 500px;
+    height:30px ;
+    text-align: center;
+    font-size: x-large;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top:100px ;
+     padding:20px 2px 20px 2px;
+     border-radius: 20px;
+    color: #ffffff;
+    font-weight:bold;
+    letter-spacing: 2px;
+}
+.bord{
+    border: none;
+    color: #ffffff;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    text-align: left;
+    background-image: linear-gradient(to top left , rgba(0, 255, 55, 0.678) 50% , rgba(0, 119, 255, 0.527) 50% );
+}
+#sub{
+   margin-left: 200px;
+   padding:15px 52px 15px 52px;
+   background-color: rgb(0, 0, 0);
+   border-radius: 10px;
+   color: #fafafa;
+   display: inline-block;
+   transition: 0.2s;
+}
+#sub:hover{
+    transform: scale(1.1);
+    background: red;
+    border: solid 2px #fafafa;
+}
+body{
+    background-image: linear-gradient(to top , transparent , rgb(57, 255, 222) 90%);
+    height: 100vh;
+}
+#user{
+    padding:10px 7px 10px 7px ;
+    border-radius:10px ;
+    transition: 0.5s;
+}
+#user:hover{
+    transform: scale(1.1);
+}
+#pass{
+    padding:10px 7px 10px 7px ;
+    border-radius:10px ;
+    transition: 0.5s;
+}
+#pass:hover{
+    transform: scale(1.1);
+}
+#E-mail{
+    padding:10px 7px 10px 7px ;
+    border-radius:10px ;
+    transition: 0.5s;
+}
+#E-mail:hover{
+    transform: scale(1.1);
+}
+#reset{
+    transition: 0.5s;
+}
+#reset:hover{
+    transform: scale(1.1);
+}
+#date{
+    transition: 0.5s;
+}
+#date:hover{
+    transform: scale(1.1);
+}
+.select{
+    transition: 0.5s;
+}
+.select:hover{
+    transform: scale(1.1);
+}
+/*
+finish the turbo.html
+*/
+img{
+    width: 200px;
+    border-radius: 15px;
+    padding: auto;
+    padding: auto;
+}
+#man{
+    height: 250px;
+}
+#mann{
+    height: 150px;
+}
+#h{
+    width: 210px;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 250px;
+    margin: 70px 35px 35px 70px;
+    transition: 0.5s;
+}
+#h a{
+    display: block;
+    text-align: right ;
+}
+#h:hover{
+    transform: scale(1.2);
+    background-color: rgb(0, 24, 235);
+    border-color: #ffffff;
+}
